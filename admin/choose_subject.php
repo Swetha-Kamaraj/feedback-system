@@ -1,17 +1,6 @@
 <?php
 if (!isset($_SESSION)) {
   session_start();
-  $faculnm = $_SESSION["facultynm"];
-  //$_SESSION["facultynm"];
-}
-if (!isset($_SESSION["facultynm"])) {
-  header("location: choose-faculty.php");
-}
-if (isset($_SESSION["facnm"])) {
-  $stnm = $_SESSION["facnm"];
-}
-if (isset($_SESSION["facem"])) {
-  $stem = $_SESSION["facem"];
 }
 
 //$uid = $_SESSION["userid"] ;
